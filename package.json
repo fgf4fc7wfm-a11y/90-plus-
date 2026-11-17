@@ -1,0 +1,8 @@
+{
+  "name": "90plus-football",
+  "version": "1.0.0",
+  "private": true,
+  "description": "90+ - site mondial de football",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=18" }
+}
