@@ -1,0 +1,19 @@
+90+ — INSTALLATION SIMPLE (Mac / Windows)
+
+Le projet contient un site responsive, les matchs du jour, les matchs en direct, les compétitions disponibles et une recherche de clubs.
+
+IMPORTANT : API-Football ne fournit pas automatiquement les photos des maillots. La galerie est une maquette à compléter avec des images autorisées. Les actualités et transferts ne sont pas encore intégrés. La couverture dépend des compétitions présentes chez le fournisseur.
+
+CONFIGURER LA CLÉ API
+1. Duplique .env.example et nomme la copie .env.
+2. Remplace COLLE_TA_CLE_ICI par ta clé API-Football.
+3. Ne partage jamais cette clé et ne la place jamais dans public/.
+
+LANCER EN LOCAL
+1. Installe Node.js 18 ou plus récent : https://nodejs.org/
+2. Ouvre Terminal et place-toi dans le dossier du projet.
+3. Lance : node --env-file=.env server.js
+4. Ouvre http://localhost:3000
+
+Pour la mise en ligne, ajoute API_FOOTBALL_KEY dans les variables secrètes de l'hébergeur. Ne publie jamais le fichier .env.
+Documentation : https://www.api-football.com/documentation-v3
